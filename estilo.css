@@ -1,0 +1,347 @@
+/* estilos globais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #3498db;
+    color: #fff;
+    text-align: justify;
+    padding: 20px;
+}
+
+.logo img {
+    margin-left: 15px;
+    height: 70px;
+    width: 260px;
+    float: left;
+}
+#fundo{
+    width: 1347px;
+    height: 50px;
+    margin-left: -19px;
+    margin-bottom: -20px;
+    background-color: #3498db;
+}
+#menu {
+    font-size: 18px;
+    margin-top: 45px;
+    margin-left: 12px;
+    background-color: #3498db;
+}
+
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-start;
+    gap: 16px;
+}
+
+nav ul li {
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px; /* Adiciona espaço à esquerda e à direita para equalizar a distância */
+    display: block; /* Torna os links elementos de bloco para ocupar toda a largura */
+    text-align: center; /* Centraliza o texto horizontalmente */
+}
+
+nav a:hover {
+    border-bottom: 2px solid #fff;
+}
+
+
+.conteudo {
+    margin: 20px;
+}
+
+section {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Estilos específicos */
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 24px;
+    color: #1f7fbe;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+address {
+    font-style: italic;
+    font-size: 14px;
+}
+
+/* Divs */
+#logo {
+float:left;
+}
+
+
+
+/* usuário */
+.hidden {
+    display: none;
+}
+
+#inicio {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    width: 750px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: justify;
+}
+
+#imagem1 {
+    margin-left: 830px;
+    margin-top: -695px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-right: 20px;
+}
+
+#imagem2 {
+    margin-left: 830px;
+    margin-top: 22px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-right: 20px;
+}
+
+#procedimentos {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    margin-top: 25px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#logo {
+    margin-top: -13px;
+    margin-left: -12px;
+}
+
+.texto {
+    color: #000;
+}
+
+.texto:hover {
+    color: #f00;
+}
+
+#comeco {
+    width: 100%;
+}
+#um {
+    width: 50%;
+}
+.caixas {
+    display: flex;
+    justify-content: space-between;
+    text-align: justify;
+}
+.caixas2 {
+    display: flex;
+    justify-content: space-between;
+    text-align: justify;
+}
+#dois {
+    width: 50%;
+}
+#tres {
+    width: 50%;
+}
+.caixas3 {
+    display: flex;
+    justify-content: space-between;
+    text-align: justify;
+}
+#quatro {
+    width: 50%;
+}
+#cinco {
+    width: 50%;
+}
+.caixas4 {
+    display: flex;
+    justify-content: space-between;
+    text-align: justify;
+}
+#seis {
+    width: 50%;
+}
+#sete {
+    width: 50%;
+}
+.caixas5 {
+    display: flex;
+    justify-content: space-between;
+    text-align: justify;
+}
+#oito {
+    width: 50%;
+}
+#nove {
+    width: 50%;
+}
+.caixas6 {
+    display: flex;
+    justify-content: space-between;
+    text-align: justify;
+}
+#dez {
+    width: 50%;
+}
+#onze {
+    width: 50%;
+}
+.caixas7 {
+    display: flex;
+    justify-content: space-between;
+    text-align: justify;
+}
+#doze {
+    width: 50%;
+}
+#treze {
+    width: 50%;
+}
+
+#foto1{
+    width: 300px;
+    height: 300px;
+}
+
+.soro {
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    margin-top: 25px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: justify;
+}
+#foto1{
+    float: right;
+    margin-left: 10px;
+    margin-right: -114px;
+    margin-top: -20px;
+    margin-bottom: 10px;
+}
+.solucao {
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    margin-top: 25px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: justify;
+}
+#foto2{
+    float: left;
+}
+#titulo{
+   float: right;
+}
+#texto2{
+    margin-top: 70px;
+ }
+
+#container{
+    margin-top: 20px;
+}
+
+
+
+
+
+/* sgv */
+.telefone{
+    margin-bottom: -3px;
+    margin-left: 2px;
+}
+.kit{
+    margin-bottom: -3px;
+    margin-left: 2px;
+}
+.seta{
+    margin-bottom: 1px;
+}
+.ambulance{
+    margin-bottom: -3px;
+    margin-left: 2px;
+}
+.rodovia{
+    margin-bottom: -3px;
+    margin-left: 2px;
+}
+.police{
+    margin-bottom: -3px;
+}
+.vida{
+    margin-bottom: -3px;
+    margin-left: 5px;
+}
+.woman{
+    margin-bottom: -3px;
+}
+.crianca{
+    margin-bottom: -3px;
+}
+.fogo{
+    margin-bottom: -3px;
+}
+.denuncia{
+    margin-bottom: -3px;
+}
+.militar{
+    margin-bottom: -3px;
+}
+.civil{
+    margin-bottom: -3px;
+}
+.mulher{
+    margin-bottom: -1px;
+}
