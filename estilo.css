@@ -112,9 +112,9 @@ nav ul li {
 nav ul li a {
     text-decoration: none;
     color: #fff;
-    padding: 10px 20px; /* Adiciona espaço à esquerda e à direita para equalizar a distância */
-    display: block; /* Torna os links elementos de bloco para ocupar toda a largura */
-    text-align: center; /* Centraliza o texto horizontalmente */
+    padding: 10px 20px; 
+    display: block; 
+    text-align: center;
 }
 
 nav a:hover {
@@ -441,38 +441,33 @@ float:left;
     margin-bottom: -1px;
 }
 
-/* Estilo para a explicação */
-#explicacao {
-    font-size: 18px; /* Tamanho da fonte */
-    margin-bottom: 10px; /* Espaço abaixo da explicação */
-    color: #333; /* Cor do texto */
-}
 
 /* Estilo do input e botão */
 input {
-    width: 300px; /* Largura do campo de entrada */
-    padding: 10px; /* Espaçamento interno */
-    margin-bottom: 10px; /* Espaço abaixo do campo */
-    border: 1px solid #ccc; /* Borda do campo */
-    border-radius: 5px; /* Bordas arredondadas */
+    width: 300px; 
+    padding: 10px; 
+    margin-bottom: 10px;
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
 }
 
 button {
-    padding: 10px 20px; /* Espaçamento interno do botão */
-    border: none; /* Remove borda padrão */
-    border-radius: 5px; /* Bordas arredondadas */
-    background-color: #3498db; /* Cor de fundo do botão */
-    color: white; /* Cor do texto do botão */
+    padding: 10px 20px; 
+    border: none;
+    border-radius: 5px;
+    background-color: #3498db; 
+    color: white; 
 }
 
 /* Estilo do resultado */
+
 #resultado {
-    margin-top: 20px; /* Espaço acima do resultado */
-    padding: 15px; /* Espaçamento interno */
-    background-color: #fff; /* Cor de fundo do resultado */
-    border: 1px solid #3498db; /* Borda do resultado */
-    border-radius: 5px; /* Bordas arredondadas */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra para dar profundidade */
-    text-align: center; /* Centraliza o texto do resultado */
+    margin-top: 20px; 
+    padding: 15px; 
+    background-color: #fff; 
+    border: 1px solid #3498db; 
+    border-radius: 5px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    text-align: center; 
     
 }
