@@ -5,12 +5,33 @@ body {
     padding: 0;
     background-color: #f0f0f0;
 }
+nav{
+    height: 0px;
+}
 
 header {
     background-color: #3498db;
     color: #fff;
     text-align: justify;
     padding: 20px;
+    animation: slide-in 1s ease-out;
+}
+@keyframes slide-in{
+    from{
+        transform: translateY(-100%);
+        opacity: 0;
+
+
+    }
+
+
+    to{
+            transform: translateY(0);
+            opacity: 1;
+
+    }
+
+
 }
 
 .logo img {
@@ -18,19 +39,59 @@ header {
     height: 70px;
     width: 260px;
     float: left;
+    animation: slide-in 1s ease-out;
+    
 }
+@keyframes slide-in{
+    from{
+        transform: translateY(-100%);
+        opacity: 0;
+
+
+    }
+
+
+    to{
+            transform: translateY(0);
+            opacity: 1;
+
+    }
+
+
+}
+
 #fundo{
     width: 1347px;
     height: 50px;
     margin-left: -19px;
     margin-bottom: -20px;
     background-color: #3498db;
+    
 }
 #menu {
     font-size: 18px;
     margin-top: 45px;
     margin-left: 12px;
     background-color: #3498db;
+    animation: slide-in 1s ease-out;
+    
+}
+@keyframes slide-in{
+    from{
+        transform: translateY(-100%);
+        opacity: 0;
+
+
+    }
+
+
+    to{
+            transform: translateY(0);
+            opacity: 1;
+
+    }
+
+
 }
 
 
@@ -112,10 +173,7 @@ float:left;
 
 
 
-/* usuário */
-.hidden {
-    display: none;
-}
+
 
 #inicio {
     background-color: #fff;
@@ -261,6 +319,40 @@ float:left;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     text-align: justify;
 }
+#textreacao{
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    margin-top: 25px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: justify;
+
+}
+.gaze {
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    margin-top: 25px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: justify;
+}
+.atadura {
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    margin-top: 25px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: justify;
+}
 #foto1{
     float: right;
     margin-left: 10px;
@@ -282,19 +374,22 @@ float:left;
 #foto2{
     float: left;
 }
+#foto3{
+    float: left;
+}
 #titulo{
-   float: right;
+   float: left;
 }
 #texto2{
     margin-top: 70px;
+ }
+ #texto3{
+    margin-top: 49px;
  }
 
 #container{
     margin-top: 20px;
 }
-
-
-
 
 
 /* sgv */
@@ -344,4 +439,40 @@ float:left;
 }
 .mulher{
     margin-bottom: -1px;
+}
+
+/* Estilo para a explicação */
+#explicacao {
+    font-size: 18px; /* Tamanho da fonte */
+    margin-bottom: 10px; /* Espaço abaixo da explicação */
+    color: #333; /* Cor do texto */
+}
+
+/* Estilo do input e botão */
+input {
+    width: 300px; /* Largura do campo de entrada */
+    padding: 10px; /* Espaçamento interno */
+    margin-bottom: 10px; /* Espaço abaixo do campo */
+    border: 1px solid #ccc; /* Borda do campo */
+    border-radius: 5px; /* Bordas arredondadas */
+}
+
+button {
+    padding: 10px 20px; /* Espaçamento interno do botão */
+    border: none; /* Remove borda padrão */
+    border-radius: 5px; /* Bordas arredondadas */
+    background-color: #3498db; /* Cor de fundo do botão */
+    color: white; /* Cor do texto do botão */
+}
+
+/* Estilo do resultado */
+#resultado {
+    margin-top: 20px; /* Espaço acima do resultado */
+    padding: 15px; /* Espaçamento interno */
+    background-color: #fff; /* Cor de fundo do resultado */
+    border: 1px solid #3498db; /* Borda do resultado */
+    border-radius: 5px; /* Bordas arredondadas */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra para dar profundidade */
+    text-align: center; /* Centraliza o texto do resultado */
+    
 }
